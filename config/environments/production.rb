@@ -77,5 +77,5 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.default_url_options = { host: 'apple-crisp-6935.herokuapp.com', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'cryptic-sea-7422', port: 3000 }
 end

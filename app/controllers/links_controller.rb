@@ -17,6 +17,9 @@ class LinksController < ApplicationController
   end
 
   def create
+    if params[:link][:url] == "superlink"
+      redirect_to :back
+    else
     @link = current_user.links.build(link_params)
 
     respond_to do |format|
@@ -26,6 +29,7 @@ class LinksController < ApplicationController
       else
         format.html { render :new }
         format.json { render json: @link.errors, status: :unprocessable_entity }
+        end
       end
     end
   end

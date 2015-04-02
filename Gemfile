@@ -20,15 +20,17 @@ gem 'coffee-rails', '~> 4.1.0'
 
 #development:
 group :development do
-  gem 'rack', '~> 1.6.0'
-  gem 'rack-livereload', '~> 0.3.15'
   gem 'guard', '~> 2.12.5'
   gem 'guard-livereload', '~> 2.4.0', require: false
+  gem 'thor', '>= 0.18.1'
+  gem 'listen', '~> 2.7'
 end
 
 #development and test:
 group :development, :test do
   gem 'sqlite3', '~> 1.3.10'
+  gem 'rspec', '~> 3.2.0'
+  gem 'guard-rspec', '~> 4.5.0', require: false
 end
 
 #production:

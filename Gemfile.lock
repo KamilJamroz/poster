@@ -229,6 +229,8 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    validates_url_format_of (0.4.1)
+      activerecord (>= 3.1, < 5)
     warden (1.2.3)
       rack (>= 1.0)
 
@@ -260,3 +262,4 @@ DEPENDENCIES
   thor (>= 0.18.1)
   turbolinks (~> 2.5.3)
   uglifier (~> 2.7.1)
+  validates_url_format_of (~> 0.4.1)

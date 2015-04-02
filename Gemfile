@@ -13,6 +13,7 @@ gem 'passenger', '~> 5.0.6'
 gem 'devise', '~> 3.4.1'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form', '~> 3.1.0'
+gem 'validates_url_format_of', '~> 0.4.1'
 
 #assets:
 gem 'sass-rails', '~> 5.0.3'
